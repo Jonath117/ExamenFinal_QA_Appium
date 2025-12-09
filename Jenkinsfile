@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Obtiene tu código fuente
-                git url: 'https://github.com/Jonath117/ExamenFinal_QA_Appium.git', branch: 'jenkins-pipeline'
+                git url: 'https://github.com/Jonath117/ExamenFinal_QA_Appium.git', branch: 'main'
             }
         }
         
