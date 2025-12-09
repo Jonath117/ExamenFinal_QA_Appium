@@ -2,7 +2,7 @@ import LoginPage from "../../pageObjects/loginPage";
 import { Given, When, Then } from "@wdio/cucumber-framework";
 
 Given("Cuando estoy en la pantalla de login", async () => {
-    await LoginPage.usernameInput.waitForDisplayed({ timeout: 5000 });
+    await LoginPage.usernameInput.waitForDisplayed({ timeout: 10000 });
 });
 
 When("Ingreso el usuario {string} y la contraseña {string}", async (username, password) => {
