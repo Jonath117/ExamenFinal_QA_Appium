@@ -80,7 +80,7 @@ capabilities: [{
     // ----------------------------------------------------
     "platformName": "Android",
 
-    'appium:app': 'bs://0afeab8c83904919b63bf75358c9742c44c27602',
+    'appium:app': 'bs://e89fab5a884165fc6c404e8dd01e47cd7c72819e',
     
     // ----------------------------------------------------
     // 2. BrowserStack Options (Todas las configuraciones del dispositivo)
